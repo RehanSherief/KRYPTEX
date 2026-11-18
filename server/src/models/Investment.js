@@ -1,0 +1,3 @@
+import mongoose from 'mongoose';
+const investmentSchema = new mongoose.Schema({ user:{type:mongoose.Schema.Types.ObjectId,ref:'User',required:true,index:true}, name:{type:String,required:true,trim:true}, symbol:{type:String,default:'—'}, type:{type:String,enum:['Stocks','Mutual Funds','Gold','Crypto','Fixed Deposit','Other'],default:'Stocks'}, investedAmount:{type:Number,required:true,min:0}, currentValue:{type:Number,required:true,min:0}, units:{type:Number,default:0}, purchaseDate:{type:Date,default:Date.now} },{timestamps:true});
+export default mongoose.model('Investment',investmentSchema);
