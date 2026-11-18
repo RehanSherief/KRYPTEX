@@ -1,4 +1,16 @@
-# KRYPTEX — Digital Wealth Management Platform
+# KRYPTEX — Wealth Management Ecosystem
+
+**An independent full-stack wealth management dashboard built using React, Node.js, Express and MongoDB.**
+
+🌐 **Live Demo:** https://kryptex-flame.vercel.app/
+
+💻 **Source Code:** https://github.com/RehanSherief/KRYPTEX
+
+🚀 **Deployment:** Vercel + Render
+
+## Overview
+
+KRYPTEX is a full-stack wealth management application featuring portfolio tracking, investment management, transaction records, analytics and a Gold Vault dashboard.# KRYPTEX — Digital Wealth Management Platform
 
 KRYPTEX is an independent full-stack web application built using the MERN stack. It provides a unified interface for managing investment portfolios, tracking asset allocations, reviewing transaction history, and exploring digital wealth management workflows.
 
